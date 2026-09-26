@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio of Sree Ram, a 2nd-Year B.Tech Electronics & Communication Engineering student at SRM Institute of Science and Technology.">
+  <title>Sree Ram | Portfolio</title>
+  
+  <!-- Link to External CSS Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- =========================================================================
+       NAVIGATION BAR
+       ========================================================================= -->
+  <header class="site-header">
+    <div class="container">
+      <nav class="navbar" aria-label="Main Navigation">
+        <!-- Logo / Brand -->
+        <a href="#home" class="logo" aria-label="Sree Ram Portfolio Home">
+          Sree<span>.</span>
+        </a>
+
+        <!-- Navigation Menu Links -->
+        <ul class="nav-links">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+
+        <!-- Call to Action -->
+        <div class="nav-cta">
+          <a href="#contact" class="btn btn-primary btn-sm">Let's Connect</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- =========================================================================
+       MAIN CONTENT CONTAINER
+       ========================================================================= -->
+  <main>
+
+    <!-- =======================================================================
+         1. HOME / HERO SECTION
+         ======================================================================= -->
+    <section id="home" class="hero-section">
+      <div class="container">
+        <div class="hero-grid">
+          
+          <!-- Left: Hero Content -->
+          <div class="hero-content">
+            <span class="hero-kicker">// Welcome to my portfolio</span>
+            
+            <h1 class="hero-title">
+              Hi, I'm <span class="highlight-red">Sree Ram</span>
+            </h1>
+
+            <h2 class="hero-subtitle">
+              Electronics &amp; Communication Engineering Student
+            </h2>
+
+            <p class="hero-description">
+              I am a second-year B.Tech Electronics and Communication Engineering
+              student interested in VLSI, embedded systems, electronics and software
+              development.
+            </p>
+
+            <div class="hero-buttons">
+              <a href="#projects" class="btn btn-primary">
+                View My Work
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </a>
+              <a href="#contact" class="btn btn-secondary">Contact Me</a>
+            </div>
+          </div>
+
+          <!-- Right: Profile Area with Modern Red Aesthetic Frame -->
+          <div class="hero-profile-wrap">
+            <div class="profile-card">
+              <div class="profile-inner-frame">
+                <!-- Sleek Vector Portrait Illustration -->
+                <svg class="profile-svg" viewBox="0 0 360 390" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Profile Avatar Illustration">
+                  <defs>
+                    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                      <stop offset="0%" stop-color="#161616"/>
+                      <stop offset="100%" stop-color="#0a0a0a"/>
+                    </linearGradient>
+                    <linearGradient id="redAccent" x1="0%" y1="0%" x2="100%" y2="100%">
+                      <stop offset="0%" stop-color="#ff004f"/>
+                      <stop offset="100%" stop-color="#b80039"/>
+                    </linearGradient>
+                  </defs>
+
+                  <!-- Backdrop Geometric Circuit Pattern -->
+                  <rect width="360" height="390" fill="url(#bgGrad)"/>
+                  <circle cx="180" cy="160" r="110" stroke="rgba(255, 0, 79, 0.15)" stroke-width="1.5" stroke-dasharray="6 6"/>
+                  <circle cx="180" cy="160" r="130" stroke="rgba(255, 255, 255, 0.05)" stroke-width="1"/>
+
+                  <!-- Stylized Circuit Board Traces -->
+                  <path d="M40 80H100L125 105H170" stroke="rgba(255, 0, 79, 0.4)" stroke-width="1.5" stroke-linecap="round"/>
+                  <circle cx="40" cy="80" r="3" fill="#ff004f"/>
+                  <path d="M320 280H260L235 255H190" stroke="rgba(255, 0, 79, 0.4)" stroke-width="1.5" stroke-linecap="round"/>
+                  <circle cx="320" cy="280" r="3" fill="#ff004f"/>
+
+                  <!-- Modern Tech Silhouette Character -->
+                  <!-- Shoulders / Torso -->
+                  <path d="M90 390C90 320 120 290 180 290C240 290 270 320 270 390H90Z" fill="#1f1f1f" stroke="#282828" stroke-width="2"/>
+                  <!-- Collar & Tie/Accent -->
+                  <path d="M150 290L180 340L210 290H150Z" fill="url(#redAccent)"/>
+                  <!-- Neck -->
+                  <rect x="162" y="235" width="36" height="60" rx="4" fill="#d4a373"/>
+                  <!-- Head -->
+                  <ellipse cx="180" cy="180" rx="52" ry="64" fill="#e0a96d"/>
+                  <!-- Modern Dark Hair -->
+                  <path d="M125 175C125 125 145 105 180 105C215 105 235 125 235 175C235 150 220 120 180 120C140 120 125 150 125 175Z" fill="#111111"/>
+                  <path d="M130 145C140 115 170 100 195 102C225 105 235 125 235 140C225 130 205 125 180 125C150 125 135 135 130 145Z" fill="#1e1e1e"/>
+                  <!-- Glasses / Modern Tech Specs -->
+                  <rect x="142" y="165" width="30" height="20" rx="4" fill="rgba(8, 8, 8, 0.8)" stroke="#ff004f" stroke-width="2"/>
+                  <rect x="188" y="165" width="30" height="20" rx="4" fill="rgba(8, 8, 8, 0.8)" stroke="#ff004f" stroke-width="2"/>
+                  <line x1="172" y1="175" x2="188" y2="175" stroke="#ff004f" stroke-width="2"/>
+                </svg>
+
+                <!-- Floating System Indicator Badge -->
+                <div class="profile-badge">
+                  <span class="badge-dot"></span>
+                  <span class="badge-text">ECE Student @ SRM IST</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         2. ABOUT SECTION
+         ======================================================================= -->
+    <section id="about" class="section section-alt">
+      <div class="container">
+        
+        <div class="section-title-wrap">
+          <span class="section-subtitle">Get to know me</span>
+          <h2 class="section-title">About Me</h2>
+        </div>
+
+        <div class="about-grid">
+          
+          <!-- Left: Information Card with Academic Overview -->
+          <div class="about-left-card">
+            <span class="about-card-badge">// Academic Background</span>
+            <div class="about-quote">
+              "Turning theoretical silicon physics &amp; logic gates into functional real-world hardware."
+            </div>
+
+            <div class="about-features-list">
+              <div class="about-feature-item">
+                <span class="about-feature-bullet">▸</span>
+                <span><strong>Degree:</strong> B.Tech Electronics &amp; Communication Engineering</span>
+              </div>
+              <div class="about-feature-item">
+                <span class="about-feature-bullet">▸</span>
+                <span><strong>Current Level:</strong> 2nd Year Undergraduate</span>
+              </div>
+              <div class="about-feature-item">
+                <span class="about-feature-bullet">▸</span>
+                <span><strong>Institution:</strong> SRM Institute of Science and Technology</span>
+              </div>
+              <div class="about-feature-item">
+                <span class="about-feature-bullet">▸</span>
+                <span><strong>Academic Focus:</strong> VLSI Design, Embedded IoT, Digital Systems</span>
+              </div>
+            </div>
+
+            <div class="about-stats-grid">
+              <div class="about-stat-item">
+                <span class="stat-number">2nd</span>
+                <span class="stat-label">Academic Year</span>
+              </div>
+              <div class="about-stat-item">
+                <span class="stat-number">10+</span>
+                <span class="stat-label">Core Technical Skills</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: Narrative Description -->
+          <div class="about-right-text">
+            <h3>Engineering Solutions for the Future</h3>
+            <p>
+              I am a second-year B.Tech Electronics and Communication Engineering
+              student at SRM Institute of Science and Technology. I am interested in
+              VLSI, digital electronics, embedded systems, IoT and software development.
+              I enjoy building practical projects that combine hardware and software.
+            </p>
+            <p>
+              My goal is to bridge low-level microcontroller firmware and chip-level architecture 
+              with efficient software layers. Whether drafting digital logic circuits, modeling finite 
+              state machines, or writing firmware for connected ESP32 sensors, I thrive on continuous 
+              learning and hands-on experimentation.
+            </p>
+
+            <div class="about-action-wrap" style="margin-top: 30px;">
+              <a href="#contact" class="btn btn-primary">Let's Discuss Projects</a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         3. SKILLS SECTION
+         ======================================================================= -->
+    <section id="skills" class="section">
+      <div class="container">
+        
+        <div class="section-title-wrap">
+          <span class="section-subtitle">What I work with</span>
+          <h2 class="section-title">My Skills</h2>
+        </div>
+
+        <!-- 10 Core Skill Cards Required -->
+        <div class="skills-grid">
+          
+          <!-- 1. C -->
+          <div class="skill-card">
+            <div class="skill-icon-wrap">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <polyline points="16 18 22 12 16 6"></polyline>
+                <polyline points="8 6 2 12 8 18"></polyline>
+              </svg>
+            </div>
+            <h3 class="skill-title">C</h3>
+            <span class="skill-category-tag">Programming / Embedded</span>
+          </div>
+
+          <!-- 2. Python -->
+          <div class="skill-card">
+            <div class="skill-icon-wrap">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm0 18a8 8 0 1 1 8-8 8 8 0 0 1-8 8z"></path>
+                <path d="M9 9h6v6H9z"></path>
+              </svg>
+            </div>
+            <h3 class="skill-title">Python</h3>
+            <span class="skill-category-tag">Scripting &amp; Automation</span>
+          </div>
+
+          <!-- 3. HTML -->
+          <div class="skill-card">
+            <div class="skill-icon-wrap">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M4 3l1.5 15L12 21l6.5-3L20 3H4z"></path>
+                <path d="M8 8h8l-.5 4H8.5l.3 3 3.2.9 3.2-.9.2-1.5"></path>
+              </svg>
+            </div>
+            <h3 class="skill-title">HTML</h3>
+            <span class="skill-category-tag">Semantic Markup</span>
+          </div>
+
+          <!-- 4. CSS -->
+          <div class="skill-card">
+            <div class="skill-icon-wrap">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="12" cy="12" r="9"></circle>
+                <path d="M12 3a9 9 0 0 1 0 18v-9z"></path>
+              </svg>
+            </div>
+            <h3 class="skill-title">CSS</h3>
+            <span class="skill-category-tag">Styling &amp; Flex/Grid</span>
+          </div>
+
+          <!-- 5. SQL -->
+          <div class="skill-card">
+            <div class="skill-icon-wrap">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
+                <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+              </svg>
+            </div>
+            <h3 class="skill-title">SQL</h3>
+            <span class="skill-category-tag">Database Management</span>
+          </div>
+
+          <!-- 6. Digital Electronics -->
+          <div class="skill-card">
+            <div class="skill-icon-wrap">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="3" y="3" width="18" height="18" rx="2"></rect>
+                <path d="M7 12h10M12 7v10"></path>
+              </svg>
+            </div>
+            <h3 class="skill-title">Digital Electronics</h3>
+            <span class="skill-category-tag">Logic Gates &amp; Circuits</span>
+          </div>
+
+          <!-- 7. VLSI Fundamentals -->
+          <div class="skill-card">
+            <div class="skill-icon-wrap">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="4" y="4" width="16" height="16" rx="2"></rect>
+                <rect x="9" y="9" width="6" height="6"></rect>
+                <line x1="9" y1="1" x2="9" y2="4"></line>
+                <line x1="15" y1="1" x2="15" y2="4"></line>
+                <line x1="9" y1="20" x2="9" y2="23"></line>
+                <line x1="15" y1="20" x2="15" y2="23"></line>
+                <line x1="20" y1="9" x2="23" y2="9"></line>
+                <line x1="20" y1="14" x2="23" y2="14"></line>
+                <line x1="1" y1="9" x2="4" y2="9"></line>
+                <line x1="1" y1="14" x2="4" y2="14"></line>
+              </svg>
+            </div>
+            <h3 class="skill-title">VLSI Fundamentals</h3>
+            <span class="skill-category-tag">CMOS &amp; HDL Design</span>
+          </div>
+
+          <!-- 8. Embedded Systems -->
+          <div class="skill-card">
+            <div class="skill-icon-wrap">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+              </svg>
+            </div>
+            <h3 class="skill-title">Embedded Systems</h3>
+            <span class="skill-category-tag">Microcontrollers &amp; Peripherals</span>
+          </div>
+
+          <!-- 9. ESP32 -->
+          <div class="skill-card">
+            <div class="skill-icon-wrap">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M5 12.55a11 11 0 0 1 14.08 0"></path>
+                <path d="M1.42 9a16 16 0 0 1 21.16 0"></path>
+                <path d="M8.53 16.11a6 6 0 0 1 6.95 0"></path>
+                <line x1="12" y1="20" x2="12.01" y2="20"></line>
+              </svg>
+            </div>
+            <h3 class="skill-title">ESP32</h3>
+            <span class="skill-category-tag">Wi-Fi &amp; Bluetooth SoC</span>
+          </div>
+
+          <!-- 10. IoT -->
+          <div class="skill-card">
+            <div class="skill-icon-wrap">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="2" y1="12" x2="22" y2="12"></line>
+                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+              </svg>
+            </div>
+            <h3 class="skill-title">IoT</h3>
+            <span class="skill-category-tag">Connected Cloud Telemetry</span>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         4. PROJECTS SECTION
+         ======================================================================= -->
+    <section id="projects" class="section section-alt">
+      <div class="container">
+        
+        <div class="section-title-wrap">
+          <span class="section-subtitle">Portfolio Showcase</span>
+          <h2 class="section-title">My Projects</h2>
+        </div>
+
+        <div class="projects-grid">
+          
+          <!-- Project 1: Smart Energy Meter using ESP32 -->
+          <article class="project-card">
+            <div class="project-thumbnail">
+              <svg class="project-thumbnail-svg" viewBox="0 0 320 180" preserveAspectRatio="none" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Smart Energy Meter Graphic">
+                <rect width="320" height="180" fill="#141414"/>
+                <!-- Power Grid Waves -->
+                <path d="M20 90H80L95 45L115 135L135 65L150 110L165 90H300" stroke="#ff004f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <circle cx="95" cy="45" r="4" fill="#ff004f"/>
+                <circle cx="115" cy="135" r="4" fill="#ffffff"/>
+                <circle cx="135" cy="65" r="4" fill="#ff004f"/>
+                <!-- Module Board -->
+                <rect x="220" y="45" width="75" height="85" rx="6" fill="#1e1e1e" stroke="#2e2e2e"/>
+                <rect x="232" y="58" width="51" height="24" rx="3" fill="#080808" stroke="rgba(255, 0, 79, 0.4)"/>
+                <text x="240" y="74" fill="#ff004f" font-family="monospace" font-size="9" font-weight="bold">230.4 V</text>
+                <text x="235" y="98" fill="#ababab" font-family="monospace" font-size="8">PZEM-004T</text>
+                <text x="235" y="112" fill="#ff004f" font-family="monospace" font-size="7">ESP32 ON</text>
+              </svg>
+              <span class="project-number-badge">Project 01</span>
+            </div>
+
+            <div class="project-body">
+              <h3 class="project-title">Smart Energy Meter using ESP32</h3>
+              <p class="project-description">
+                An IoT-based smart energy monitoring system using ESP32 to monitor
+                electrical energy consumption and control connected appliances.
+              </p>
+
+              <div class="project-tech-list">
+                <span class="tech-pill">ESP32</span>
+                <span class="tech-pill">IoT</span>
+                <span class="tech-pill">PZEM</span>
+                <span class="tech-pill">Embedded Systems</span>
+              </div>
+
+              <div class="project-actions">
+                <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                  View Source
+                </a>
+                <a href="#contact" class="btn btn-outline btn-sm">Details</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: Digital Electronics Project -->
+          <article class="project-card">
+            <div class="project-thumbnail">
+              <svg class="project-thumbnail-svg" viewBox="0 0 320 180" preserveAspectRatio="none" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Digital Electronics Project Graphic">
+                <rect width="320" height="180" fill="#141414"/>
+                <!-- Logic Gates & Truth Circuit -->
+                <rect x="35" y="45" width="55" height="35" rx="4" fill="#1e1e1e" stroke="#ff004f"/>
+                <text x="50" y="67" fill="#ff004f" font-family="monospace" font-size="11" font-weight="bold">AND</text>
+                
+                <rect x="35" y="100" width="55" height="35" rx="4" fill="#1e1e1e" stroke="#ff004f"/>
+                <text x="50" y="122" fill="#ff004f" font-family="monospace" font-size="11" font-weight="bold">XOR</text>
+
+                <path d="M90 62H140V85H170" stroke="#ff004f" stroke-width="2"/>
+                <path d="M90 118H140V95H170" stroke="#ff004f" stroke-width="2"/>
+
+                <rect x="170" y="70" width="75" height="42" rx="4" fill="#242424" stroke="#ffffff" stroke-width="1.5"/>
+                <text x="180" y="95" fill="#ffffff" font-family="monospace" font-size="10" font-weight="bold">K-MAP ALU</text>
+
+                <path d="M245 91H290" stroke="#ff004f" stroke-width="2"/>
+                <circle cx="290" cy="91" r="5" fill="#ff004f"/>
+              </svg>
+              <span class="project-number-badge">Project 02</span>
+            </div>
+
+            <div class="project-body">
+              <h3 class="project-title">Digital Electronics Project</h3>
+              <p class="project-description">
+                A digital electronics project involving Boolean algebra, logic gates,
+                K-maps and digital circuit design.
+              </p>
+
+              <div class="project-tech-list">
+                <span class="tech-pill">Digital Electronics</span>
+                <span class="tech-pill">Logic Design</span>
+                <span class="tech-pill">K-Map</span>
+              </div>
+
+              <div class="project-actions">
+                <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                  View Source
+                </a>
+                <a href="#contact" class="btn btn-outline btn-sm">Details</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3: Personal Portfolio Website -->
+          <article class="project-card">
+            <div class="project-thumbnail">
+              <svg class="project-thumbnail-svg" viewBox="0 0 320 180" preserveAspectRatio="none" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Portfolio Website Graphic">
+                <rect width="320" height="180" fill="#141414"/>
+                <!-- Browser Window Mockup -->
+                <rect x="30" y="30" width="260" height="125" rx="8" fill="#1e1e1e" stroke="#2e2e2e" stroke-width="1.5"/>
+                <rect x="30" y="30" width="260" height="26" rx="8" fill="#0c0c0c"/>
+                <circle cx="48" cy="43" r="3.5" fill="#ff004f"/>
+                <circle cx="60" cy="43" r="3.5" fill="#555555"/>
+                <circle cx="72" cy="43" r="3.5" fill="#555555"/>
+                <rect x="90" y="37" width="120" height="11" rx="3" fill="#181818"/>
+                <!-- Content Rows -->
+                <rect x="48" y="70" width="90" height="12" rx="3" fill="#ff004f"/>
+                <rect x="48" y="90" width="130" height="7" rx="2" fill="#ababab"/>
+                <rect x="48" y="103" width="110" height="7" rx="2" fill="#555555"/>
+                <rect x="48" y="120" width="60" height="16" rx="3" fill="#ff004f"/>
+                <rect x="200" y="70" width="70" height="66" rx="6" fill="#141414" stroke="#ff004f" stroke-dasharray="3 3"/>
+              </svg>
+              <span class="project-number-badge">Project 03</span>
+            </div>
+
+            <div class="project-body">
+              <h3 class="project-title">Personal Portfolio Website</h3>
+              <p class="project-description">
+                A responsive personal portfolio website developed using HTML and CSS
+                to showcase my skills, projects and contact information.
+              </p>
+
+              <div class="project-tech-list">
+                <span class="tech-pill">HTML</span>
+                <span class="tech-pill">CSS</span>
+              </div>
+
+              <div class="project-actions">
+                <a href="#home" class="btn btn-secondary btn-sm">
+                  Live Preview
+                </a>
+                <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         5. CONTACT SECTION
+         ======================================================================= -->
+    <section id="contact" class="section">
+      <div class="container">
+        
+        <div class="section-title-wrap">
+          <span class="section-subtitle">Reach out</span>
+          <h2 class="section-title">Contact Me</h2>
+        </div>
+
+        <div class="contact-grid">
+          
+          <!-- Left: Contact Details -->
+          <div class="contact-info-panel">
+            <h3 class="contact-headline">Let's Connect &amp; Collaborate</h3>
+            <p class="contact-description">
+              I am open to internship opportunities, academic projects, and engineering discussions.
+              Feel free to reach out directly through any of the channels below.
+            </p>
+
+            <div class="contact-links-list">
+              
+              <!-- Email -->
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
+                </div>
+                <div class="contact-text">
+                  <span class="contact-label">Email</span>
+                  <a href="mailto:your-email@example.com" class="contact-val">your-email@example.com</a>
+                </div>
+              </div>
+
+              <!-- GitHub -->
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                  </svg>
+                </div>
+                <div class="contact-text">
+                  <span class="contact-label">GitHub</span>
+                  <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" class="contact-val">
+                    https://github.com/yourusername
+                  </a>
+                </div>
+              </div>
+
+              <!-- LinkedIn -->
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                    <rect x="2" y="9" width="4" height="12"></rect>
+                    <circle cx="4" cy="4" r="2"></circle>
+                  </svg>
+                </div>
+                <div class="contact-text">
+                  <span class="contact-label">LinkedIn</span>
+                  <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" class="contact-val">
+                    https://linkedin.com/in/yourusername
+                  </a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Right: Interactive Message Form -->
+          <div class="contact-form-card">
+            <form action="mailto:your-email@example.com" method="POST" enctype="text/plain">
+              
+              <div class="form-group">
+                <label for="name" class="form-label">Your Name</label>
+                <input type="text" id="name" name="name" class="form-input" placeholder="e.g. Alex Johnson" required>
+              </div>
+
+              <div class="form-group">
+                <label for="email" class="form-label">Your Email</label>
+                <input type="email" id="email" name="email" class="form-input" placeholder="e.g. alex@example.com" required>
+              </div>
+
+              <div class="form-group">
+                <label for="subject" class="form-label">Subject</label>
+                <input type="text" id="subject" name="subject" class="form-input" placeholder="Internship Opportunity / Project Inquiry" required>
+              </div>
+
+              <div class="form-group">
+                <label for="message" class="form-label">Message</label>
+                <textarea id="message" name="message" class="form-textarea" placeholder="Write your message here..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary" style="width: 100%;">
+                Send Message
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <line x1="22" y1="2" x2="11" y2="13"></line>
+                  <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                </svg>
+              </button>
+
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- =========================================================================
+       FOOTER
+       ========================================================================= -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-inner">
+        <p class="footer-copy">
+          &copy; 2026 <strong>Sree Ram</strong>. All Rights Reserved.
+        </p>
+
+        <a href="#home" class="back-to-top" aria-label="Scroll back to top">
+          Back to Top &uarr;
+        </a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
